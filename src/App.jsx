@@ -94,7 +94,12 @@ function App() {
           <Linkedin size={20} strokeWidth={2.2} />
         </a>
 
-        <a href="resume_jainoos.pdf" target="_blank" title="Resume">
+        <a
+          href="resume_jainoos.pdf"
+          target="_blank"
+          title="Resume"
+          className="resume-btn"
+        >
           <FileText size={20} strokeWidth={2.2} />
         </a>
       </nav>
