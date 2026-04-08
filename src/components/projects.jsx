@@ -65,7 +65,7 @@ const projectList = [
     desc: "A fully responsive portfolio website with smooth animations, glassmorphism UI, and dynamic navigation experience.",
     image: portfolioImg,
     github: "https://github.com/jainoos007/portfolio",
-    website: "https://jainoos.vercel.app",
+    website: "https://jainoos.xyz",
   },
 ];
 
