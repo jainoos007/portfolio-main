@@ -34,6 +34,7 @@ const projectList = [
   {
     name: "FashShop",
     category: "fun",
+    category: "fun",
     tags: ["React.js", "Tailwind CSS", "UI/UX"],
     desc: "A responsive fashion e-commerce website featuring dynamic product displays, dark mode, and an engaging user experience across devices.",
     image: fashshopImg,
@@ -66,6 +67,15 @@ const projectList = [
     image: storeImg,
     github: "https://github.com/jainoos007/Product-Store",
     website: "https://product-store-1-tna3.onrender.com/",
+  },
+  {
+    name: "Personal Portfolio",
+    category: "major",
+    tags: ["React.js", "Tailwind CSS", "Framer Motion", "UI Design"],
+    desc: "A fully responsive portfolio website with smooth animations, glassmorphism UI, and dynamic navigation experience.",
+    image: portfolioImg,
+    github: "https://github.com/jainoos007/portfolio",
+    website: "https://jainoos.xyz",
   },
 ];
 
