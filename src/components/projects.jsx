@@ -68,15 +68,7 @@ const projectList = [
     github: "https://github.com/jainoos007/Product-Store",
     website: "https://product-store-1-tna3.onrender.com/",
   },
-  {
-    name: "Personal Portfolio",
-    category: "major",
-    tags: ["React.js", "Tailwind CSS", "Framer Motion", "UI Design"],
-    desc: "A fully responsive portfolio website with smooth animations, glassmorphism UI, and dynamic navigation experience.",
-    image: portfolioImg,
-    github: "https://github.com/jainoos007/portfolio",
-    website: "https://jainoos.xyz",
-  },
+  
 ];
 
 export default function Projects() {
