@@ -67,7 +67,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
- 
+  flex: 1;
+  min-width: 0;
 }
 
 .hero-info h1 {
@@ -94,6 +95,14 @@ body {
   align-self: flex-start;
   margin-top: 4px;
   overflow: hidden; 
+}
+
+.command-bar,
+.command-bar:visited,
+.command-bar:hover,
+.command-bar:active {
+  color: #eeeeee;
+  text-decoration: none;
 }
 
 .command-bar:hover {
@@ -1137,7 +1146,7 @@ body.light-theme {
     word-break: break-word; 
     max-width: 100%;
   }
-  
+
   .simple-item {
     margin-bottom: -18px !important;
     padding: 5px 0 !important;
