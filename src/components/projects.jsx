@@ -33,7 +33,7 @@ const projectList = [
   },
   {
     name: "FashShop",
-    category: "major",
+    category: "fun",
     tags: ["React.js", "Tailwind CSS", "UI/UX"],
     desc: "A responsive fashion e-commerce website featuring dynamic product displays, dark mode, and an engaging user experience across devices.",
     image: fashshopImg,
@@ -60,7 +60,7 @@ const projectList = [
   },
   {
     name: "Personal Portfolio",
-    category: "fun",
+    category: "major",
     tags: ["React.js", "Tailwind CSS", "Framer Motion", "UI Design"],
     desc: "A fully responsive portfolio website with smooth animations, glassmorphism UI, and dynamic navigation experience.",
     image: portfolioImg,
