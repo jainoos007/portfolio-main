@@ -6,7 +6,24 @@ import fashshopImg from "../assets/fashshop.png";
 import nikeImg from "../assets/nike.png";
 import storeImg from "../assets/store.png";
 import portfolioImg from "../assets/portfolio.png";
+import edusuiteImg from "../assets/edusuite.png";
 const projectList = [
+  {
+    name: "EduSuite",
+    category: "major",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "SQLite",
+      "Drizzle ORM",
+      "OCI VPS",
+      "Nginx",
+    ],
+    desc: "A full-stack academic registry and course catalog management portal featuring secure schema-validated API endpoints, a custom transcript print engine, and a real-time system audit log dashboard.",
+    image: edusuiteImg,
+    github: "https://github.com/jainoos007/EduSuite",
+    website: "https://student-management.jainoos.xyz/",
+  },
   {
     name: "Queueline",
     category: "major",

@@ -357,7 +357,8 @@ body {
 .project-links {
   display: flex;
   gap: 8px;
-  margin-top: 16px;
+  margin-top: auto;
+  padding-top: 16px;
 }
 
 .btn-github, .btn-website {
@@ -528,8 +529,16 @@ body {
   object-fit: cover; 
 }
 
+.grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
 .grid-item .item-details { 
   padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .item-desc { 

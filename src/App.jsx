@@ -95,9 +95,10 @@ function App() {
         </a>
 
         <a
-          href="resume_jainoos.pdf"
+          href="/Jainoos_Developer.pdf"
+          download="Jainoos_Developer.pdf"
           target="_blank"
-          title="Resume"
+          title="curl resume"
           className="resume-btn"
         >
           <FileText size={20} strokeWidth={2.2} />
