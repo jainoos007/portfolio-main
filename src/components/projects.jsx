@@ -4,10 +4,48 @@ import queueflowImg from "../assets/queueflow.png";
 import formoraImg from "../assets/formora.png";
 import fashshopImg from "../assets/fashshop.png";
 import nikeImg from "../assets/nike.png";
-import storeImg from "../assets/store.png";
 import portfolioImg from "../assets/portfolio.png";
 import edusuiteImg from "../assets/edusuite.png";
+import gigpulseImg from "../assets/gigpulse.png";
 const projectList = [
+  {
+    name: "GigPulse",
+    category: "major",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "Prisma",
+      "Oracle Cloud (VPS)",
+      "Nginx",
+    ],
+    desc: "A freelance CRM and operations platform with client and lead management, an interactive Kanban board, invoices and proposals, and secure role-based JWT authentication.",
+    image: gigpulseImg,
+    github: "https://github.com/jainoos007/GigPulse",
+    website: "https://gigpulse.jainoos.xyz",
+  },
+  {
+    name: "Queueline",
+    category: "major",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Oracle Cloud (VPS)",
+      "Nginx",
+    ],
+    desc: "A real-time digital queue management system that replaces physical waiting lines with token-based tracking, live position updates, and smart wait-time estimation.",
+    image: queueflowImg,
+    github: "https://github.com/jainoos007/Queline",
+    website: "https://queline.jainoos.xyz",
+  },
   {
     name: "EduSuite",
     category: "major",
@@ -23,15 +61,6 @@ const projectList = [
     image: edusuiteImg,
     github: "https://github.com/jainoos007/EduSuite",
     website: "https://student-management.jainoos.xyz/",
-  },
-  {
-    name: "Queueline",
-    category: "major",
-    tags: ["Next.js", "Tailwind CSS", "PostgreSQL", "Prisma", "System Design"],
-    desc: "A real-time digital queue management system that replaces physical waiting lines with token-based tracking, live position updates, and smart wait-time estimation.",
-    image: queueflowImg,
-    github: "https://github.com/jainoos007/Queline",
-    website: "https://queline.vercel.app/login",
   },
   {
     name: "Formora",
@@ -50,7 +79,6 @@ const projectList = [
   },
   {
     name: "FashShop",
-    category: "fun",
     category: "fun",
     tags: ["React.js", "Tailwind CSS", "UI/UX"],
     desc: "A responsive fashion e-commerce website featuring dynamic product displays, dark mode, and an engaging user experience across devices.",
@@ -76,16 +104,6 @@ const projectList = [
     github: "https://github.com/jainoos007/portfolio",
     website: "https://jainoos.xyz",
   },
-  {
-    name: "Product Store App",
-    category: "major",
-    tags: ["MongoDB", "Express.js", "React", "Node.js", "MERN"],
-    desc: "A full-stack product management application with complete CRUD functionality and a scalable backend architecture.",
-    image: storeImg,
-    github: "https://github.com/jainoos007/Product-Store",
-    website: "https://product-store-1-tna3.onrender.com/",
-  },
-  
 ];
 
 export default function Projects() {
