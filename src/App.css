@@ -680,7 +680,8 @@ body.light-theme {
 .simple-item {
   width: 100%;
   padding: 10px 0;
-  margin-bottom: -10px;
+  /* Leave a compact but clear break between consecutive roles. */
+  margin-bottom: -13px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -1205,7 +1206,6 @@ body.light-theme {
   }
 
   .simple-item {
-    margin-bottom: -18px !important;
     padding: 5px 0 !important;
   }
   
